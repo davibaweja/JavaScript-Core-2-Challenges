@@ -1,0 +1,35 @@
+
+
+body{
+    font: 1rem/1.56 "ubuntu",Verdana,Arial,sans-serif;
+}
+.form-container
+{
+    width:70%;
+    margin: auto;
+    margin-top: 5em;
+    color:rgb(29, 190, 211);
+    font-size: 3em;
+    border: 2px solid;
+    /* padding:1em; */
+    /* height: 10em; */
+}
+.tweet
+{
+    display: flex;
+    flex-direction: column;
+    padding:1em;
+    align-items: center;
+    /* border:2px solid; */
+}
+#typing-area
+{
+    margin:1em;
+}
+
+#char-counter
+{
+    font-size: 0.5em;
+    text-align: center;
+    margin:0;
+}
